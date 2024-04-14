@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="home-style.css" rel="stylesheet"  type="text/css"/> 
     <title>About Me</title>
 
     <style>
@@ -14,7 +15,7 @@
             padding: 0;
         }
 
-        .container {
+        .about-container {
             width: 80%;
             max-width: 800px;
             margin: 50px auto;
@@ -24,7 +25,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        h2 {
+        .about-container h2 {
             text-align: center;
             color: #333;
         }
@@ -47,20 +48,101 @@
         .about-content p {
             margin-bottom: 20px;
         }
+        table{
+            text-align: left;
+        }
 
 
 
     </style>
 </head>
 <body>
-    <div class="container">
+    <!--Navbar starts here-->
+    <header>
+
+        <img id="logo"  src= "images/myLogo.png" alt="Me"/>
+       
+       <ul id="navbar-texts">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_me.html">About Me</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+       </ul>
+        
+    </header>
+    <!--Navbar ends here-->
+    <div class="about-container">
         <h2>About Me</h2>
         <div class="profile-picture">
-            <img src="images/mypic_edited.jpg" alt="Profile Picture">
+            <img src="images/mypic_edited - Copy.jpg" alt="Profile Picture">
         </div>
         <div class="about-content">
             <p>Hello! My name is Human and I'm a Developer. I'm passionate about coding and designing, and enjoy Basketball a lot. I have no work experience for now in any field but I'm looking forward to it. Feel free to contact me if you have any questions!</p>
         </div>
+        <table>
+            <th>Email</th>
+            <tr>
+                <td>humanbakishi@gmail.com</td>
+            </tr>
+            <th>Phone</th>
+            <tr>
+                <td>+27 63 5299 240</td>
+            </tr>
+            <th>Age</th>
+            <tr >
+                <td >23</td>
+            </tr>
+           
+            <th>Education</th>
+            <tr>
+                <td>I've completed Matric in 2019 at Holomisa S.S.S</td>
+            </tr>
+
+            <th>Projects</th>
+            <tr>
+                <td>No projects yet.</td>
+            </tr>
+
+            <th>Work Experience</th>
+            <tr>
+                <td>I workde as a Data admin at Rio Tinto for almost two years.</td>
+            </tr>
+        </table>
     </div>
+   
+
+     <!--Footer here-->
+  <footer>
+    <div class="footer-content">
+        <div class="address">
+            <p><b>My Address </b><br><br>
+                
+                Masingita Village<br>
+                Glen Austin AH<br>
+                Midrand<br>
+                1685</p>
+        </div>
+        <div class="add-links">
+            <p><b>Click below to see my Figma Designs</b></p><br>
+
+            <ul>
+                <li><a href="https://www.figma.com/file/Mb17F6KwuM1EZxss0Uo6Mf/Untitled?type=design&node-id=1-2&mode=design&t=U7Vdx8sYgjDuL6IX-0">
+                    <img src="images/icons8-figma-48.png" alt="Figma"/></a></li>
+            </ul>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.335468933663!2d28.1324535!3d-26.022577499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956de97eef6f1f%3A0x94a1af1465b15fc0!2sMasingita%20Village.!5e0!3m2!1sen!2sza!4v1712432874049!5m2!1sen!2sza" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <div class="social-media">
+        <ul>
+            <li><a href="https://web.facebook.com/login.php/?_rdc=1&_rdr"><img src="images/icons8-facebook-48.png"  alt="Facebook"/></a></li>
+            <li><a href="https://www.instagram.com/?hl=en"><img src="images/icons8-instagram-48.png" alt="Instagram"/></a></li>
+            <li><a href="https://www.linkedin.com/login"><img src="images/icons8-linkedin-48.png" alt="LinkedIn"/></a></li>
+        </ul>
+    </div>
+
+  </footer>
+
+   <!--Footer ends here-->
 </body>
 </html>
